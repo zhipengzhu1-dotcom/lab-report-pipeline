@@ -10,6 +10,28 @@ Two small browser tools for an analytical lab's reporting step, combined on one 
 The page runs entirely in the browser; no data leaves the machine. All names, codes, lots and
 results in the demo are fictional.
 
+**Live demo:** https://zhipengzhu1-dotcom.github.io/lab-report-pipeline/
+
+## Screenshots
+
+**Build reports.** Template, method and recipient, and the two pasted tables.
+
+![Build reports tab](docs/screenshots/1-build.png)
+
+**Review** after loading the demo batch: matched samples against the limit, with one result over
+limit, two samples on a shared lot split by status, and one sample without a result.
+
+![Review step with matched samples](docs/screenshots/2-review.png)
+
+**Extract from signed reports.** The eight generated reports dropped back in, with codes, lots,
+signed dates and ng/day results recovered.
+
+![Extracted values from the signed reports](docs/screenshots/3-extract.png)
+
+**Phone layout.**
+
+<img src="docs/screenshots/4-phone.png" alt="Phone layout" width="300">
+
 ## Build reports
 
 1. **Template.** A generic Report of Analysis template is generated at runtime. You can add your own
